@@ -1,0 +1,121 @@
+body{
+    margin:0;
+    padding:0;
+}
+.container{
+    margin: 0 auto;
+}
+.logo{
+    padding:10px;
+}
+.mainNav>h1{
+    color: white;
+}
+a{
+    color: white;
+}
+.mainNav{
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+ul{
+    display:flex;
+}
+li{
+    list-style-type: none;
+    padding:10px;
+    font-size: 26px;
+    color: white;
+}
+.butt{
+    background-color: coral;
+    border-radius: 30px;
+}
+a{
+    text-decoration: none;
+}
+.footer{
+    margin: 0 auto;
+    background-color: red;
+    height: 50px;
+}
+.copy{
+    padding-left:600px;
+    padding-top:18px;
+}
+.content{
+    width: 900px;
+    margin: 0 auto;
+    min-height: 500px;
+    background: url('../images/banner.jpg');
+}
+.butt1{
+    padding:10px;
+    font-size: 26px;
+    background-color: green;
+    border-radius: 30px;
+    margin-left:400px;
+    margin-top:240px;
+    color:white;
+    border: none;
+    cursor: pointer;
+    padding:15px;
+}
+.signup{
+    width: 700px;
+    margin: 0 auto;
+}
+label{
+    display: block;
+    padding: 10px;
+}
+input{
+    padding: 10px;
+    width:90%;
+    margin: 5px;
+}
+form{
+    width: 400px;
+    padding: 30px;
+    border: 5px solid coral;
+    margin: 0 auto;
+}
+
+form>h1{
+    text-align: center;
+}
+form>button{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    font-size: 26px;
+    border: none;
+    margin-left: 40%;
+}
+#email-error{
+    color:red
+}
+#password-error{
+    color: red;
+}
+.projects{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+}
+.cred{
+    color: red;
+    padding-right: 5px;
+}
+.card>img{
+    width: 400px;
+    height: 500px;
+}
